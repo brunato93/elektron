@@ -1,0 +1,128 @@
+<ion-view class="slider-view">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-nav-buttons side="right">
+     <button  class="button button-icon ion-person" ui-sref="app.profile"></button>
+  </ion-nav-buttons>
+  <ion-nav-title>
+    <span></span>
+  </ion-nav-title>
+  <ion-content scroll="true">
+
+    <img src="img/c.jpg" width="100%">
+
+
+    <ion-tabs class="tabs-stable tabs-icon-top">
+        <ion-tab title="Vendedores" icon="ion-map">
+          <img src="img/c.jpg" width="100%">
+
+
+          <img width="95%" height="auto" ng-src="http://intranet.elektron.com.mx/wp-content/uploads/2016/11/PLANTILLA-RECODIFICACIONES.jpg">
+  </ion-tab>
+        <ion-tab title="Clientes" icon="ion-chatboxes">
+          <img src="img/c.jpg" width="100%">
+
+
+          <img width="95%" ng-src="http://intranet.elektron.com.mx/wp-content/uploads/2016/11/a4d09f_682b3219df814e289c22727774a33e88.jpg">
+
+        </ion-tab>
+        <ion-tab title="Colaboradores" icon="ion-ios-people">
+
+          <img width="95%"  ng-src="http://intranet.elektron.com.mx/wp-content/uploads/2016/11/a4d09f_682b3219df814e289c22727774a33e88.jpg">
+        <
+        </ion-tab>
+        <ion-tab title="Nuevos Prod" icon="ion-checkmark">
+
+          <img width="95%"  ng-src="http://intranet.elektron.com.mx/wp-content/uploads/2016/11/a4d09f_682b3219df814e289c22727774a33e88.jpg">
+        <
+        </ion-tab>
+        <ion-tab title="Recodificacion" icon="ion-checkmark">
+          <img width="95%"  ng-src="http://intranet.elektron.com.mx/wp-content/uploads/2016/11/PLANTILLA-RECODIFICACIONES.jpg">
+        </ion-tab>
+        <ion-tab title="obsoletos" icon="ion-checkmark">
+          <img width="95%" height="auto" ng-src="http://intranet.elektron.com.mx/wp-content/uploads/2016/11/PLANTILLA-RECODIFICACIONES.jpg">
+
+        </ion-tab>
+    </ion-tabs>
+
+    <div class="tab">
+      <button class="tablinks" onclick="openTab(event, 'Vendedores')">Vendedores</button>
+      <button class="tablinks" onclick="openTab(event, 'Clientes')">Clientes</button>
+      <button class="tablinks" onclick="openTab(event, 'Colaboradores')">Colaboradores</button>
+      <button class="tablinks" onclick="openTab(event, 'NuevosProd')">Nuevos Prod</button>
+      <button class="tablinks" onclick="openTab(event, 'Recodificacion')">Recodificacion</button>
+      <button class="tablinks" onclick="openTab(event, 'Obsoletos')">Obsoletos</button>
+      <button class="tablinks" onclick="openTab(event, 'Catalogos')">Catalogos</button>
+    </div>
+
+    <div id="Vendedores" class="tabcontent">
+      <h3>Vendedores</h3>
+    </div>
+
+    <div id="Clientes" class="tabcontent">
+      <h3>Clientes</h3>
+      <img ng-src="http://intranet.elektron.com.mx/wp-content/uploads/2016/11/a4d09f_682b3219df814e289c22727774a33e88.jpg">
+    </div>
+
+    <div id="Colaboradores" class="tabcontent">
+      <h3>Colaboradores</h3>
+      <img ng-src="http://intranet.elektron.com.mx/wp-content/uploads/2016/11/a4d09f_682b3219df814e289c22727774a33e88.jpg">
+    </div>
+    <div id="NuevosProd" class="tabcontent">
+      <h3>Nuevos Prod</h3>
+      <img ng-src="http://intranet.elektron.com.mx/wp-content/uploads/2016/11/Document-page-001-709x1024.jpg">
+    </div>
+    <div id="Recodificacion" class="tabcontent">
+      <h3>Recodificacion</h3>
+      <img ng-src="http://intranet.elektron.com.mx/wp-content/uploads/2016/11/PLANTILLA-RECODIFICACIONES.jpg">
+    </div>
+    <div id="Obsoletos" class="tabcontent">
+      <h3>Obsoletos</h3>
+    </div>
+    <div id="Catalogo" class="tabcontent">
+      <h3>Catalogo</h3>
+      <img ng-src="http://intranet.elektron.com.mx/wp-content/uploads/2016/11/PLANTILLA-RECODIFICACIONES.jpg">
+    </div>
+  </ion-content>
+</ion-view>
+
+
+<style>
+  /* Style the tab */
+
+  div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  /* Style the buttons inside the tab */
+
+  div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  /* Change background color of buttons on hover */
+
+  div.tab button:hover {
+    background-color: #ddd;
+  }
+  /* Create an active/current tablink class */
+
+  div.tab button.active {
+    background-color: #ccc;
+  }
+  /* Style the tab content */
+
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+</style>
