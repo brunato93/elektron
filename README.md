@@ -1,23 +1,20 @@
-Your Ionic project is ready to go! Some quick tips:
+Elektron is a Ionic Hybrid app whose conectivity and user profile management is done through wordpress. The wordpress project must be launched for this app to have database connection.
 
-* cd into your project:
-```
-cd ionFullApp
-```
+database connection must be configured in this path:
 
-* Setup this project to use Sass:
-```
-ionic setup sass
-```
+
+
+
+the code lacks nodemodules please install them localy. 
+ 
+For trials and testing please install the ionic environment from this guide: 
+
+https://ionicframework.com/docs/v3/
+
 
 * Develop in the browser with live reload:
 ```
 ionic serve
-```
-
-* Add a platform (ios or Android):
-```
-ionic platform add ios [android]
 ```
 
 Note: iOS development requires OS X currently
