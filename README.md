@@ -2,7 +2,13 @@ Elektron is a Ionic Hybrid app whose conectivity and user profile management is 
 
 database connection must be configured in this path:
 
+wwww/js/config.js
 
+lines for configuration are: 
+
+angular.module('your_app_name.config', [])
+.constant('WORDPRESS_API_URL', 'your_api_url')
+.constant('GCM_SENDER_ID', 'your_gcm_sender_id')
 
 
 the code lacks nodemodules please install them localy. 
