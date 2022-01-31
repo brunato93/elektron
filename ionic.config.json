@@ -1,0 +1,16 @@
+{
+  "name": "ionFullApp",
+  "app_id": "d96d446c",
+  "gulpStartupTasks": [
+    "sass",
+    "templatecache",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*",
+    "scss/**/*"
+  ],
+  "documentRoot": "www",
+  "type": "ionic1"
+}
